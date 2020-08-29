@@ -1,0 +1,445 @@
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>Desafio Front-End</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body class="bg-color">
+
+
+    <!-- 
+    <div class="jumbotron text-center">
+        <h1>Desafio Front-End</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+ -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col col-sm-2">
+                <div class="row sem-quebrar-linha ">
+                    <p>Sidebar Menu</p>
+                    <!-- Dashboard -->
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dashboard
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Sidebar Menu -->
+                <div id="mySidenav" class="sidenav">
+                    <div>
+                        <P>Apps</P>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        
+                        <div>
+                            <a href="#">email</a>
+                        </div>
+                        <div>
+                            <a href="#">chat</a>
+
+                        </div>
+                        <div>
+                            <a href="#">todo</a>
+
+                        </div>
+                        <div>
+                            <a href="#">calendar</a>
+                        </div>
+                    </div>
+                     <div>
+                        <P>Ui Elementes</P>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        
+                        <div>
+                            <a href="#">Grid</a>
+                        </div>
+                        <div>
+                            <a href="#">color</a>
+
+                        </div>
+                        <div>
+                            <a href="#">card</a>
+
+                        </div>
+                        <div>
+                            <a href="#">table</a>
+                        </div>
+                        <div>
+                            <a href="#">components</a>
+                        </div>
+                    </div>
+                    <div>
+                        <P>Forms</P>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        
+                        <div>
+                            <a href="#">Form elements</a>
+                        </div>
+                        <div>
+                            <a href="#">form layouts</a>
+
+                        </div>
+                        <div>
+                            <a href="#">Form Wizard</a>
+
+                        </div>
+                        <div>
+                            <a href="#">Form Validation</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- TODO O CONTAINER DA PAGE -->
+            <div class="col col-sm-10">
+
+                <div class="row">Barra de acessos do usuário</div>
+
+                <div class="row">Card actions</div>
+
+                <div class="row ">
+
+                    <!-- Filtros -->
+                    <div class="col-sm-3 ">
+                        Filters
+                        <div class="row">
+                            <div>
+                                <p>Multi Range</p>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio1" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio1">R$10,00</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio2" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">R$10,00-R$100,00</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio3" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio3">R$100,00-R$500</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio4" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio4">R$500,00</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio5" name="customRadio"
+                                        class="custom-control-input">
+
+                                    <label class="custom-control-label" for="customRadio5">All</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slider seleção de preço -->
+                        <div class="row">
+
+                            <div class="col">
+                                <p>Slider</p>
+                                <div class="sem-quebrar-linha">
+                                    <label for="customRange1">Slider 1.99 - 4098</label>
+                                </div>
+                                <div>
+                                    <input type="range" class="custom-range" id="customRange1">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row div-pai">
+                            <div class="sem-quebrar-linha">
+                                <p>Category</p>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Cell Phones</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">Computers & Tablets</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Appliances</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">Audio</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                    <label class="custom-control-label" for="customCheck5">iPhone Acessories</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                    <label class="custom-control-label" for="customCheck6"> Cameras & Camcorders</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                    <label class="custom-control-label" for="customCheck7"> iPhone Cases & Clips</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                    <label class="custom-control-label" for="customCheck8">TV & Home Theater</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                    <label class="custom-control-label" for="customCheck9">Small Kitchen
+                                        Appliances</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="sem-quebrar-linha">
+                                <p>Brand</p>
+
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                    <label class="custom-control-label" for="customCheck10">Insigni</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                    <label class="custom-control-label" for="customCheck11">Samsung</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                    <label class="custom-control-label" for="customCheck12">Appliances</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck13">
+                                    <label class="custom-control-label" for="customCheck13">Audio</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                    <label class="custom-control-label" for="customCheck14">Apple</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck15">
+                                    <label class="custom-control-label" for="customCheck15">HP</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                    <label class="custom-control-label" for="customCheck16"> Sony</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                    <label class="custom-control-label" for="customCheck17">Metra</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck18">
+                                    <label class="custom-control-label" for="customCheck18">Dyne</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck19">
+                                    <label class="custom-control-label" for="customCheck19">LG</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck20">
+                                    <label class="custom-control-label" for="customCheck20">Canon</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                    <label class="custom-control-label" for="customCheck21">Speck</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <p>Rating</p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary">Clear All Filters</button>
+                    </div>
+
+                    <div class="col-sm-9"> Products
+                        <!-- Barra de pesquisa -->
+                        <div class="row">
+                            <input class="form-control mw-75" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+
+                        <!-- PARA CADA PRODUTO TERA ESSA DIV -->
+                        <div id="produto1" class="row">
+                            <div class="col-sm-2">
+                                <img class="img-product">
+                                <!-- src="../../download.jpg" -->
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <div id="produto1" class="row">
+                            <div class="col-sm-2">
+                                <img class="img-product">
+                                <!-- src="../../download.jpg" -->
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <div id="produto1" class="row">
+                            <div class="col-sm-2">
+                                <img class="img-product">
+                                <!-- src="../../download.jpg" -->
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        
+                        <div id="produto1" class="row">
+                            <div class="col-sm-2">
+                                <img class="img-product">
+                                <!-- src="../../download.jpg" -->
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <div id="produto1" class="row">
+                            <div class="col-sm-2">
+                                <img class="img-product">
+                                <!-- src="../../download.jpg" -->
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <!-- Paginação -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
