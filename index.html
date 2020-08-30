@@ -1,6 +1,3 @@
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -11,125 +8,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/aa6fa93463.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scheme.css">
 
 </head>
 
 <body class="bg-color">
-
-
-    <!-- 
-    <div class="jumbotron text-center">
-        <h1>Desafio Front-End</h1>
-        <p>Resize this responsive page to see the effect!</p>
+    
+   
     </div>
- -->
-
     <div class="container-fluid">
-
         <div class="row">
-            <div class="col col-sm-2">
-                <div class="row sem-quebrar-linha ">
-                    <p>Sidebar Menu</p>
+            <div class="col col-sm-2 rw-color">
+                <p>Sidebar Menu</p>
+                <div class="row ">
                     <!-- Dashboard -->
-
+                    
                     <div class="btn-group">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        <button type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Dashboard
                         </button>
-                        <div class="dropdown-menu dropdown-menu-right">
+                        
+                        <div class="dropdown-menu ">
                             <button class="dropdown-item" type="button">Action</button>
                             <button class="dropdown-item" type="button">Another action</button>
                             <button class="dropdown-item" type="button">Something else here</button>
                         </div>
                     </div>
                 </div>
-
+               
 
                 <!-- Sidebar Menu -->
                 <div id="mySidenav" class="sidenav">
                     <div>
                         <P>Apps</P>
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
                         <div>
+                            <i class="far fa-envelope"></i>
                             <a href="#">email</a>
                         </div>
                         <div>
-                            <a href="#">chat</a>
+                            <i class="far fa-comment-alt"></i>
+                            <a href="#">Chat</a>
 
                         </div>
                         <div>
-                            <a href="#">todo</a>
+                            <i class="far fa-check-square"></i>
+                            <a href="#">Todo</a>
 
                         </div>
                         <div>
-                            <a href="#">calendar</a>
+                            <i class="far fa-calendar-alt"></i>
+                            <a href="#">Calendar</a>
                         </div>
                     </div>
-                     <div>
+                    <div>
                         <P>Ui Elementes</P>
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
                         <div>
+                            <i class="fas fa-columns"></i>
                             <a href="#">Grid</a>
                         </div>
                         <div>
+                            <i class="fas fa-tint"></i>
                             <a href="#">color</a>
-
                         </div>
                         <div>
+                            <i class="far fa-credit-card"></i>
                             <a href="#">card</a>
-
                         </div>
                         <div>
+                            <i class="fas fa-table"></i>
                             <a href="#">table</a>
                         </div>
                         <div>
+                            <i class="fas fa-archive"></i>
                             <a href="#">components</a>
                         </div>
                     </div>
                     <div>
                         <P>Forms</P>
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
                         <div>
+                            <i class="fab fa-wpforms"></i>
                             <a href="#">Form elements</a>
                         </div>
                         <div>
                             <a href="#">form layouts</a>
-
                         </div>
                         <div>
                             <a href="#">Form Wizard</a>
-
                         </div>
                         <div>
                             <a href="#">Form Validation</a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
             <!-- TODO O CONTAINER DA PAGE -->
-            <div class="col col-sm-10">
+            <div class="col">
+                <!-- Barra de acessos do usuário -->
+                <div class="row rw-color">
+                    <i class="far fa-check-square fa-2x"></i>
+                    <div class="row"></div>
+                    <i class="far fa-envelope fa-2x"></i>
+                    <div class="row"></div>
+                    <i class="far fa-comment-alt fa-2x"></i>
+                    <div class="row"></div>
+                    <i class="far fa-calendar-alt fa-2x"></i>
+                    <div class="row"></div>
+                    <i class="far fa-star fa-2x"></i>
+                </div>
 
-                <div class="row">Barra de acessos do usuário</div>
-
-                <div class="row">Card actions</div>
+                <!-- Nav card action -->
+                <div class="row rw-color">
+                    <a>Card Actions </a>
+                    <nav>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="#" class="fas fa-home"></a>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="#" class="">eCommerce</a>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="#" class="">Eletronic</a>
+                    </nav>
+                </div>
 
                 <div class="row ">
-
                     <!-- Filtros -->
-                    <div class="col-sm-3 ">
+                    <div class="col-sm-3">
                         Filters
-                        <div class="row">
+                        <div class="row rw-color">
                             <div>
                                 <p>Multi Range</p>
                                 <div class="custom-control custom-radio">
@@ -161,7 +176,7 @@
                             </div>
                         </div>
                         <!-- Slider seleção de preço -->
-                        <div class="row">
+                        <div class="row rw-color">
 
                             <div class="col">
                                 <p>Slider</p>
@@ -172,9 +187,8 @@
                                     <input type="range" class="custom-range" id="customRange1">
                                 </div>
                             </div>
-
                         </div>
-                        <div class="row div-pai">
+                        <div class="row rw-color">
                             <div class="sem-quebrar-linha">
                                 <p>Category</p>
                                 <div class="custom-control custom-checkbox">
@@ -216,7 +230,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row rw-color">
                             <div class="sem-quebrar-linha">
                                 <p>Brand</p>
 
@@ -270,7 +284,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row rw-color">
                             <div>
                                 <p>Rating</p>
                                 <div>
@@ -299,14 +313,75 @@
                         <button type="button" class="btn btn-secondary">Clear All Filters</button>
                     </div>
 
-                    <div class="col-sm-9"> Products
+                    <div class="col-sm-9 "> Products
                         <!-- Barra de pesquisa -->
-                        <div class="row">
+                        <div class="row rw-color">
                             <input class="form-control mw-75" type="text" placeholder="Search" aria-label="Search">
                         </div>
 
                         <!-- PARA CADA PRODUTO TERA ESSA DIV -->
-                        <div id="produto1" class="row">
+                        <div id="produto1" class="row rw-color">
+                            <div class="col-sm-2">
+                                <img class="img-product"  src="img/relogio.jpg">
+                               
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <div id="produto1" class="row rw-color">
+                            <div class="col-sm-2">
+                                <img class="img-product" src="img/jbl.jpg">
+                               
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+                        <div id="produto1" class="row rw-color">
+                            <div class="col-sm-2">
+                                <img class="img-product" src="img/celular.jpg">
+                                
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    Nome do produto
+                                </div>
+                                <div class="row">
+                                    Marca (brand)
+                                </div>
+                                <div class="row">
+                                    Descrição
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                Actions do produto (add cart, etc)
+                            </div>
+                        </div>
+
+                        <div id="produto1" class="row rw-color">
                             <div class="col-sm-2">
                                 <img class="img-product">
                                 <!-- src="../../download.jpg" -->
@@ -326,68 +401,7 @@
                                 Actions do produto (add cart, etc)
                             </div>
                         </div>
-                        <div id="produto1" class="row">
-                            <div class="col-sm-2">
-                                <img class="img-product">
-                                <!-- src="../../download.jpg" -->
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-                        <div id="produto1" class="row">
-                            <div class="col-sm-2">
-                                <img class="img-product">
-                                <!-- src="../../download.jpg" -->
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-                        
-                        <div id="produto1" class="row">
-                            <div class="col-sm-2">
-                                <img class="img-product">
-                                <!-- src="../../download.jpg" -->
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-                        <div id="produto1" class="row">
+                        <div id="produto1" class="row rw-color ">
                             <div class="col-sm-2">
                                 <img class="img-product">
                                 <!-- src="../../download.jpg" -->
@@ -433,9 +447,6 @@
             </div>
         </div>
     </div>
-
-
-
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
