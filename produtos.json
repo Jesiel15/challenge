@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Relogio SmartWatch'",
+      "brand": "Apple",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.magazineluiza.com.br%2Fsmart-tv-4k-led-75-samsung-un75ru7100-wi-fi-bluetooth-hdr-3-hdmi-2-usb%2Fp%2F193425800%2Fet%2Felit%2F&psig=AOvVaw0wUjmeNAq8-lJs-DQJgb9K&ust=1598540030332000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjbt-ePuesCFQAAAAAdAAAAABAI",
+      "category": "Relogio",
+      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "price": 199.99,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smart TV 50'",
+      "brand": "Samsung",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.magazineluiza.com.br%2Fsmart-tv-4k-led-75-samsung-un75ru7100-wi-fi-bluetooth-hdr-3-hdmi-2-usb%2Fp%2F193425800%2Fet%2Felit%2F&psig=AOvVaw0wUjmeNAq8-lJs-DQJgb9K&ust=1598540030332000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjbt-ePuesCFQAAAAAdAAAAABAI",
+      "category": "Televisores",
+      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "price": 199.99,
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "name": "Smart TV 60'",
+      "brand": "Samsung",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.magazineluiza.com.br%2Fsmart-tv-4k-led-75-samsung-un75ru7100-wi-fi-bluetooth-hdr-3-hdmi-2-usb%2Fp%2F193425800%2Fet%2Felit%2F&psig=AOvVaw0wUjmeNAq8-lJs-DQJgb9K&ust=1598540030332000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjbt-ePuesCFQAAAAAdAAAAABAI",
+      "category": "Televisores",
+      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "price": 199.99,
+      "rating": 4.5
+    }
+  ]
+}

@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="bg-color">
+<body class="bg-color" onload="loadProdutos();">
 
 
     </div>
@@ -185,7 +185,7 @@
                             </div>
                         </div>
 
-                      
+
                         <div class="row rw-color">
                             <div class="sem-quebrar-linha">
                                 <p>Category</p>
@@ -319,6 +319,13 @@
 
                         <!-- PARA CADA PRODUTO TERA ESSA DIV -->
                         <div id="produto1" class="row rw-color">
+
+
+                            <section id="produtos">
+                                <div id="itens">Carregando ...</div>
+                            </section>
+
+
                             <div class="col-sm-2">
                                 <img class="img-product" src="img/relogio.jpg">
 
@@ -445,7 +452,7 @@
             </div>
         </div>
     </div>
-   
+
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
