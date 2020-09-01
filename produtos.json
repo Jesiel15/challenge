@@ -7,27 +7,27 @@
       "brand": "Apple",
       "imageUrl": "img/relogio.jpg",
       "category": "Relogio",
-      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "description": "o Smartwatch traz toda a qualidade e tecnologia que você ja conhece dos smartphones agora num smartwatch!",
       "price": 199.99,
       "rating": 4.5
     },
     {
       "id": 2,
-      "name": "Smart TV 50'",
-      "brand": "Samsung",
+      "name": "Caixa de Som JBL'",
+      "brand": "JBL",
       "imageUrl": "img/jbl.jpg",
-      "category": "Televisores",
-      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "category": "Acessorios",
+      "description": "A JbL Xtreme 2 é a melhor caixa de som portátil com bluetooth, que emite som estéreo dinâmico e imersivo sem esforço. A caixa de som é munida de quatro drivers, dois radiadores de graves JBL, uma bateria de íon de lítio recaregável de 10.000 mAh, suportando até 15 horas de reprodução.",
       "price": 199.99,
       "rating": 4.5
     },
     {
       "id": 3,
       "name": "Smart TV 60'",
-      "brand": "Samsung",
+      "brand": "Motorola",
       "imageUrl": "img/celular.jpg",
-      "category": "Televisores",
-      "description": " Invista em uma legítima Smart TV 4K Samsung UN75RU7100. Você vai se apaixonar pela tecnologia e inovação. Uma tela de cinema no conforto da sua",
+      "category": "Celulares",
+      "description": "Motorola, Inc. foi uma empresa de telecomunicações multinacional estadunidense fundada em 25 de setembro de 1928, baseada em Schaumburg, Illinois.",
       "price": 199.99,
       "rating": 4.5
     }

@@ -17,7 +17,6 @@
 
 <body class="bg-color" onload="loadProdutos();">
 
-
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -25,9 +24,8 @@
                 <p>Sidebar Menu</p>
                 <div class="row ">
                     <!-- Dashboard -->
-
                     <div class="btn-group">
-                        <button type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown"
+                        <button type="button" class="btn btn-secondary dropdown-toggle fas fa-home" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Dashboard
                         </button>
@@ -40,13 +38,10 @@
                     </div>
                 </div>
 
-
-                <!-- Sidebar Menu -->
+               <!-- Sidebar Menu -->
                 <div id="mySidenav" class="sidenav">
                     <div>
                         <P>Apps</P>
-                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-
                         <div>
                             <i class="far fa-envelope"></i>
                             <a href="#">email</a>
@@ -54,12 +49,10 @@
                         <div>
                             <i class="far fa-comment-alt"></i>
                             <a href="#">Chat</a>
-
                         </div>
                         <div>
                             <i class="far fa-check-square"></i>
                             <a href="#">Todo</a>
-
                         </div>
                         <div>
                             <i class="far fa-calendar-alt"></i>
@@ -67,9 +60,7 @@
                         </div>
                     </div>
                     <div>
-                        <P>Ui Elementes</P>
-                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-
+                        <P>Ui Elementes</P>            
                         <div>
                             <i class="fas fa-columns"></i>
                             <a href="#">Grid</a>
@@ -93,18 +84,20 @@
                     </div>
                     <div>
                         <P>Forms</P>
-                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
                         <div>
-                            <i class="fab fa-wpforms"></i>
+                            <i class="fab fa-elementor"></i>
                             <a href="#">Form elements</a>
                         </div>
                         <div>
+                            <i class="fas fa-table"></i>
                             <a href="#">form layouts</a>
                         </div>
                         <div>
+                            <i class="fab fa-wpforms"></i>
                             <a href="#">Form Wizard</a>
                         </div>
                         <div>
+                            <i class="far fa-check-circle"></i>
                             <a href="#">Form Validation</a>
                         </div>
                     </div>
@@ -185,7 +178,6 @@
                             </div>
                         </div>
 
-
                         <div class="row rw-color">
                             <div class="sem-quebrar-linha">
                                 <p>Category</p>
@@ -228,6 +220,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row rw-color">
                             <div class="sem-quebrar-linha">
                                 <p>Brand</p>
@@ -282,6 +275,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row rw-color">
                             <div>
                                 <p>Rating</p>
@@ -321,19 +315,17 @@
                             <div>
                                 <section id="produtos">
                                     <div class="col-sm-7">
-                                        <div id="itens" class="img-product">Carregando ...</div>
+                                        <div id="itens">Aqui irá carregar a lista de produto no arquivo JSON ...</div>
                                     </div>
                                 </section>
                             </div>
                         </div>
                         <!-- PARA CADA PRODUTO TERA ESSA DIV -->
-                        <div id="produto1" class="row rw-color">
-
-
+                        <!-- Código sem o JSON  -->
+                        <!-- <div id="produto1" class="row rw-color">
 
                             <div class="col-sm-2">
                                 <img class="img-product" src="img/relogio.jpg">
-                               
 
                             </div>
                             <div class="col-sm-7">
@@ -350,88 +342,8 @@
                             <div class="col-sm-3">
                                 Actions do produto (add cart, etc)
                             </div>
-                        </div>
-                        <div id="produto1" class="row rw-color">
-                            <div class="col-sm-2">
-                                <img class="img-product" src="img/jbl.jpg">
-
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-                        <div id="produto1" class="row rw-color">
-                            <div class="col-sm-2">
-                                <img class="img-product" src="img/celular.jpg">
-
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-
-                        <div id="produto1" class="row rw-color">
-                            <div class="col-sm-2">
-                                <img class="img-product">
-                                <!-- src="../../download.jpg" -->
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
-                        <div id="produto1" class="row rw-color ">
-                            <div class="col-sm-2">
-                                <img class="img-product">
-                                <!-- src="../../download.jpg" -->
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    Nome do produto
-                                </div>
-                                <div class="row">
-                                    Marca (brand)
-                                </div>
-                                <div class="row">
-                                    Descrição
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                Actions do produto (add cart, etc)
-                            </div>
-                        </div>
+                        </div> -->
+       
                         <!-- Paginação -->
                         <nav aria-label="Page navigation example">
                             <ul class="pagination">
@@ -450,19 +362,14 @@
                                 </li>
                             </ul>
                         </nav>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

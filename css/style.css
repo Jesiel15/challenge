@@ -7,8 +7,7 @@
 .rw-color{
     background-color: var(--light-200);
     border: var(--light-200);
-    border-radius: 10px;  
-    
+    border-radius: 10px;   
 }
 .row {
     padding: 1mm;
@@ -19,19 +18,16 @@
     position: relative;
     word-wrap: break-Word;  
 }
-
 .col, .col-sm-2, .col-sm-3, .col-sm-9, .col-sm-10{
     padding-right: .5mm;
     padding-left: 2mm;
 }
-
 .img-product {
     margin-top: .5rem;
     margin-bottom: .5rem;
-    width: 80%;
+    width: 10rem;
     height: 90%;
 }
-
 .quebrar-linha {
     display: inline;
 }
