@@ -11,11 +11,6 @@
     
 }
 .row {
-    /* border: 1px solid; */
-    /* 
-        padding-right: 1mm;
-        padding-top: 1mm;
-    */
     padding: 1mm;
     padding-left: 2mm;
     margin: 1mm;
@@ -35,7 +30,6 @@
     margin-bottom: .5rem;
     width: 80%;
     height: 90%;
-    /* padding: .5rem; */
 }
 
 .quebrar-linha {
