@@ -15,6 +15,8 @@ function loadProdutos() {
         for (i = 0; i < produtos.length; i++) {
            saida += '<div class="col-sm-2">';
            saida += '<img src="' + produtos[i].imageUrl + '">';
+           test+= '<img src="' + produtos[i].imageUrl + '">';
+           
            saida += '</div>';
            saida += '<div class="col-sm-7">';
            saida += '<div class="row">';
@@ -29,6 +31,9 @@ function loadProdutos() {
            saida += '</div>';
         }
         document.getElementById('itens').innerHTML = saida;
+        document.getElementById('test').innerHTML = saida;
+        document.getElementById('itens').innerHTML = saida;
+
     });
 }
 
